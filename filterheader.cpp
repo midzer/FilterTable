@@ -4,7 +4,7 @@
 #include <QLineEdit>
 #include <QContextMenuEvent>
 
-static const int filterReactionTime = 200;
+static const int filterReactionTime = 200; // in millisecons
 
 FilterHeader::FilterHeader(QWidget *parent)
 	: QHeaderView(Qt::Horizontal, parent), _menu(tr("Show or hide columns"), this)
